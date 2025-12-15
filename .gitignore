@@ -1,1 +1,2 @@
-.terraform
+/bin/
+/node_modules/
