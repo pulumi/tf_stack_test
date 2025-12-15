@@ -1,0 +1,1 @@
+{"Modules":[{"Key":"","Source":"","Dir":"."},{"Key":"data_lake_bucket","Source":"registry.opentofu.org/terraform-aws-modules/s3-bucket/aws","Version":"4.11.0","Dir":".terraform/modules/data_lake_bucket"}]}
