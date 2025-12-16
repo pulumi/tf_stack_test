@@ -1,0 +1,4 @@
+config:
+  aws:region: us-east-1
+  tf-migration-1765892570:projectName: data-pipeline-test
+  tf-migration-1765892570:environment: dev
