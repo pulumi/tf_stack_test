@@ -1,0 +1,4 @@
+config:
+  tf-migration-demo:awsRegion: us-east-1
+  tf-migration-demo:projectName: data-pipeline-test
+  tf-migration-demo:environment: dev
