@@ -1,0 +1,13 @@
+{
+    "name": "tf-migration-test",
+    "main": "index.ts",
+    "devDependencies": {
+        "@types/node": "^18",
+        "typescript": "^5.0.0"
+    },
+    "dependencies": {
+        "@pulumi/archive": "^0.3.5",
+        "@pulumi/aws": "^7.12.0",
+        "@pulumi/pulumi": "^3.113.0"
+    }
+}
