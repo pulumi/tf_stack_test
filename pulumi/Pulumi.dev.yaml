@@ -1,0 +1,5 @@
+config:
+  tf-stack-migrated:projectName: data-pipeline-test
+  tf-stack-migrated:environment: dev
+  tf-stack-migrated:awsRegion: us-east-1
+  aws:region: us-east-1
