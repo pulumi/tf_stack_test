@@ -1,0 +1,10 @@
+name: tf-stack-test-migrated
+description: Pulumi TypeScript migration of tf_stack_test Terraform stack
+runtime:
+  name: nodejs
+  options:
+    packagemanager: npm
+config:
+  pulumi:tags:
+    value:
+      pulumi:template: aws-typescript
