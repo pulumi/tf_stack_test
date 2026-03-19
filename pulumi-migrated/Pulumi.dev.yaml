@@ -1,0 +1,2 @@
+environment:
+  - providers/aws
