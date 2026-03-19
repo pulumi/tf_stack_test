@@ -2,18 +2,6 @@
 # AWS Terraform Configuration with S3, Lambda, and Module Usage
 # =============================================================================
 
-
-terraform {
-  backend "remote" {
-    hostname     = "api.pulumi.com"
-    organization = "pulumi"
-
-    workspaces {
-      name = "tf_stack_test_dev"
-    }
-  }
-}
-
 terraform {
   required_version = ">= 1.0.0"
 
