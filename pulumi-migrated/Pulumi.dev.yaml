@@ -1,0 +1,5 @@
+environment:
+  - tf-vvm/tf_stack_test
+config:
+  tf-stack-test-migrated:projectName: data-pipeline-test1
+  tf-stack-test-migrated:environment: dev
