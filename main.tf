@@ -3,6 +3,17 @@
 # =============================================================================
 
 terraform {
+  backend "remote" {
+    hostname     = "api.pulumi.com"
+    organization = "pulumi"
+
+    workspaces {
+      name = "tf_stack_test_dev"
+    }
+  }
+}
+
+terraform {
   required_version = ">= 1.0.0"
 
   required_providers {
@@ -34,13 +45,13 @@ provider "aws" {
 variable "aws_region" {
   description = "AWS region for resources"
   type        = string
-  default     = "us-east-1"
+  default     = "us-west-2"
 }
 
 variable "project_name" {
   description = "Name of the project"
   type        = string
-  default     = "data-pipeline-test"
+  default     = "data-pipeline-test1"
 }
 
 variable "environment" {
@@ -48,6 +59,7 @@ variable "environment" {
   type        = string
   default     = "dev"
 }
+
 
 # -----------------------------------------------------------------------------
 # Data Sources
